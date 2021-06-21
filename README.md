@@ -52,7 +52,7 @@ import { InjectModel } from '@nestjs/mongoose';
 import { Game } from './game.schema';
 import type { GameDocument } from './game.schema';
 import type { Model } from 'mongoose';
-import { QueryUtil } from '../util/QueryUtil';
+import { QueryUtil } from 'jed-mongoose';
 
 interface Request {
     pageIndex: 1;
